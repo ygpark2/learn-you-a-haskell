@@ -8,6 +8,12 @@ Welcome to *Learn You a Haskell for Great Good*! If you're reading this,
 chances are you want to learn Haskell. Well, you've come to the right
 place, but let's talk about this tutorial a bit first.
 
+저는 해스켈에 대한 저의 지식을 좀 더 견고히하기 위해서 이 글을 쓰기로 마음먹었습니다.
+저는 저의 관점이 새롭게 해스켈을 배울려는 사람들에게 도움이 될 수 있을 것이라 생각했습니다.
+인터넷에 제법 많은 해스켈 튜토리얼이 돌아다니고 있습니다. 제가 해스켈을 시작했을때는, 단지 한가지
+자료로 공부하지는 않았습니다. 제가 해스켈을 배운 방법은 여럿 튜토리얼과 글들을 읽었습니다. 왜냐하면 각각의
+글들은 그들 고유의 방식으로 설명했기 때문입니다. 여러가지 자료들을 배워감에따라 저는 각각의 조각들을 맞춰갈 수 었었습니다. 그래서 이 글은 해스켈을 배우기위한 또 다른 자료를 만들기 위한 시도입니다. 그래서 여러분들이 좋아하는 자료를 찾는데 있어서 더 많은 기회를 갖기 바랍니다.
+
 I decided to write this because I wanted to solidify my own knowledge of
 Haskell and because I thought I could help people new to Haskell learn
 it from my perspective. There are quite a few tutorials on Haskell
