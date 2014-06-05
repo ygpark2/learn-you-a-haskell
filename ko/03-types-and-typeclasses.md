@@ -6,6 +6,7 @@ Believe the type
 
 ![moo](../img/cow.png)
 
+이전에 우리는 해스켈은 정적 타입 시스템을 가지고 있다고 배웠습니다. 모든 타입 표현은 컴파일시에 정해집니다. 그리고 이것은 좀 더 안전한 코드로 이끕니다. 만약 당신이 boolean(논리형)을 숫자로 나눈다면, 이것은 컴파일 조차되지 않을 것입니다. 프로그램이 실행중 죽는것보다는 그러한 에러를 컴파일시에 잡아낼 수 있는것이 더 좋을 것입니다. 해스켈에서 모든것은 형을 가지고 있습니다. 그래서 컴파일러는 컴파일하기 전에 당신의 프로그램에 관한 아주 많은것들을 잡아낼 수 있습니다.
 Previously we mentioned that Haskell has a static type system. The type
 of every expression is known at compile time, which leads to safer code.
 If you write a program where you try to divide a boolean type with some
@@ -13,6 +14,8 @@ number, it won't even compile. That's good because it's better to catch
 such errors at compile time instead of having your program crash.
 Everything in Haskell has a type, so the compiler can reason quite a lot
 about your program before compiling it.
+
+자바와 파스칼과는 다르게 해스켈은 형 추론 시스템을 가지고 있습니다. 만약 우리가 숫자를 쓴다면, 우리는 해스켈에게 이것은 숫자라고 말하지 않아도 됩니다. 해스켈은 그것의 형(타입)을 추론할 수 있습니다. 그래서 우리는 명시적으로 함수나 표현들의 형을 적을 필요가 없습니다. 우리는 여기서 해스켈의 형(타입)의 기본적인 것에 관해서 피상적으로 한번 훑어 볼 것입니다. 하지만, 형(타입)시스템을 이해하는것은 해스켈을 배우는데에 있어서 아주 중요한 부분입니다.
 
 Unlike Java or Pascal, Haskell has type inference. If we write a number,
 we don't have to tell Haskell it's a number. It can *infer* that on its
@@ -22,6 +25,7 @@ Haskell with only a very superficial glance at types. However,
 understanding the type system is a very important part of learning
 Haskell.
 
+형(타입)은 모든 표현들이 가지고 있는 라벨의 일종입니다. 이것은 
 A type is a kind of label that every expression has. It tells us in
 which category of things that expression fits. The expression True is a
 boolean, "hello" is a string, etc.
